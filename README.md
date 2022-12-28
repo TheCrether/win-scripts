@@ -21,6 +21,10 @@ TODOs:
 
 ## `taskmgr.bat`
 
+Wrapper for `taskmgr.ps1` so that it can be run through Windows search.
+
+## `taskmgr.ps1`
+
 If a task manager like program like [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) is installed and set as the default Task Manager, this script will open the default task manager. You can also give the script a path to a program to set as the default task manager afterwards (example: to set it back to process explorer).
 
 It **can be run as administrator**, but it will automatically elevate itself (or ask you with the standard Windows prompt).
